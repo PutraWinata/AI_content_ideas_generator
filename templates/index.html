@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Ideas Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Content Ideas Generate</h1>
+        <p>Make your content ideas with AI</p>
+
+        <div class="input-container">
+            <label>Goal</label>
+            <input type="text" id="goal" placeholder="What is your main goal? (Followers, engagement, sales, etc.)">
+
+            <label>Platform</label>
+            <input type="text" id="platform" placeholder="Which platform(s) will you focus on? (TikTok, YouTube, etc.)">
+
+            <label>Content Type</label>
+            <input type="text" id="content_type" placeholder="Short videos, blogs, carousels, livestreams?">
+
+            <label>Target Audience</label>
+            <input type="text" id="target_audience" placeholder="Who is your target audience? (Age, interests, location?)">
+
+            <label>Competitors</label>
+            <input type="text" id="competitors" placeholder="Famous competitors or inspirations?">
+
+            <label>Trends</label>
+            <input type="text" id="trends" placeholder="Follow trends or focus on evergreen content?">
+            
+            <button onclick="generateContent()">Generate</button>
+        </div>
+
+        <div class="result-container" id="result">
+            <h2>Your Content Ideas</h2>
+            <p id="ai-response">The result will appear here...</p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
